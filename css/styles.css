@@ -1,5 +1,3 @@
-
-
 /* ================================= 
   Base Element Styles
 ==================================== */
@@ -40,6 +38,7 @@ form {
     padding-bottom: .5em;
     color: grey;
   }
+  
 
 /* ================================= 
   Header Styles
@@ -59,7 +58,7 @@ form {
 ==================================== */
 
 .container {
-    max-width: 95%;
+    max-width: 92%;
     margin: auto;
 }
 
@@ -79,13 +78,14 @@ fieldset {
 }
 
 button {
-    background: #FFD700;
+    background: #FFFF99;
     color: #00008B;
     padding: 1em .4em 1em .4em;
     border-radius: 5px;
     font-size: 1.2em;
     font-weight: bold;
     width: 100%;
+    border: none;
   }
 
 legend {
@@ -126,11 +126,14 @@ input[type="tel"],
 textarea,
 input[type="submit"] {
     cursor:auto;
+    padding-left: 10px;
 }
 
 input::placeholder {
     padding-right: .6em;
     text-align: right;
+    font-size: 11px;
+    color: #00008B;
 }
 
 input[type="checkbox"],
@@ -152,13 +155,16 @@ textarea:focus,
 select:focus
 input:not([type="button"]) {
     background-color: whitesmoke;
-    border-bottom: solid 3px #FFD700;
-    outline: none;
-    transition-duration: .5s;
+    outline-color: #FFFF99;
   }
 
-  .input7 input {
-      width: 50%
+select:focus {
+  background-color: whitesmoke;
+  outline-color: #FFFF99;
+}
+
+.input7 input {
+  width: 50%
   }
 
 /* ================================= 

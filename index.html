@@ -37,30 +37,31 @@
              </div>
              <div class="input3 row">
             <label for="tel">Phone Number</label>
-            <input type="tel" id="tel" name="user_number" placeholder="optional">
+            <input type="tel" id="tel" name="user_number">
             </div>  
             <div class="class4 row">
             <label for="address">Street Address</label>
-            <input type="text" id="address" name="user_address" placeholder="optional">
+            <input type="text" id="address" name="user_address">
             </div>
             <div class="input5 row">
             <label for="city">City</label>
-            <input type="text" id="city" name="user_city" placeholder="optional">
+            <input type="text" id="city" name="user_city">
             </div>
             <div class="input6 row">
             <label for="state">State</label>
             <select id="state" name="user_state">
-            <optgroup label="Choose State">
-                <option>State 1</option>
-                <option>State 2</option>
-                <option>State 3</option>
-                <option>State 4</option>
+            <optgroup label="Choose State" class ="state-option">
+                <option disabled selected></option>
+                <option>Sunshine State</option>
+                <option>Orange State</option>
+                <option>Welcome State</option>
+                <option>Green State</option>
             </optgroup>
             </select>
             </div>
             <div class="input7 row">
             <label for="zip">Zip Code</label>
-            <input type="text" id="zip" name="user_zip" placeholder="optional">
+            <input type="text" id="zip" name="user_zip">
             </div>
             </div>
         </fieldset>
@@ -76,7 +77,7 @@
             <input type="radio" id="html_format" value="html_format" name="format"><label for="html_format">HTML</label><br>
             <input type="radio" id="plain_format" value="plain_format" name="format"><label for="plain_format">Plaintext</label><br><br> 
 
-            <label for ="other"><span>Other topics you'd like to hear about</span></label>
+            <label for ="other"><span>Other topics you'd like to hear about:</span></label>
             <textarea id="other" name="other_topics" class="textarea"></textarea>
         </fieldset>
         <button type="submit">Sign Up</button>
